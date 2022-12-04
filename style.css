@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 118px;
+}
+
+.container {
+    margin-top: 118px;
+}
+
+.texts-stars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stars {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.star-one {
+    margin-left: 125px;
+}
+
+.star-one:hover {
+    transform: scale(1.1);
+}
+
+.star-two {
+    margin-left: 173px;
+    margin-top: 16px;
+}
+
+.star-two:hover {
+    transform: scale(1.1);
+}
+
+.star-three {
+    margin-left: 220px;
+    margin-top: 16px;
+}
+
+.star-three:hover {
+    transform: scale(1.1);
+}
+
+
+.texts h1 {
+    font-size: 56px;
+    color: #512051;
+    letter-spacing: -2px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.texts p {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #927B91;
+    width: 445px;
+    margin-top: 16px;
+}
+
+.comment-box {
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 71px;
+}
+
+.comment-one:hover {
+    transform: scale(1.1);
+}
+
+.comment-two {
+    margin-top: 20px;
+}
+
+.comment-two:hover {
+    transform: scale(1.1);
+}
+
+.comment-three {
+    margin-top: 40px;
+}
+
+.comment-three:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1036px) {
+    img {
+        width: 340px;
+
+    }
+}
+
+@media screen and (max-width: 1026px) {
+    img {
+        width: 320px;
+
+    }
+}
+
+@media screen and (max-width: 955px) {
+    img {
+        width: 300px;
+
+    }
+}
+
+@media screen and (max-width: 860px) {
+    img {
+        width: 280px;
+
+    }
+}
+
+@media screen and (max-width: 835px) {
+    img {
+        width: 230px;
+
+    }
+}
+
+@media screen and (max-width: 375px) {
+    h1 {
+        width: 445px;
+        height: 154px;
+        font-size: 56px;
+        text-align: center;
+    }
+
+    .texts p {
+        width: 327px;
+        font-size: 19px;
+        line-height: 25px;
+        text-align: center;
+        font-weight: 500;
+        margin-left: 50px;
+    }
+
+    .container {
+        margin-top: 82px;
+    }
+
+    .texts-stars {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .texts {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stars {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .star-one {
+
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 39px;
+    }
+
+    .star-two {
+        margin-left: 0;
+        margin-top: 16px;
+    }
+
+    .star-three {
+        margin-left: 0;
+        margin-top: 16px;
+    }
+
+    .comment-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comment-box {
+        margin-top: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    h1 {
+        width: 445px;
+        height: 154px;
+        font-size: 56px;
+        text-align: center;
+    }
+
+    p {
+
+        text-align: center;
+        font-size: 19px;
+
+
+    }
+
+    .texts-stars {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-top: 82px;
+    }
+
+
+    .texts {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stars {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stars img {
+        height: 38px;
+    }
+
+    .star-one {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 39px;
+    }
+
+    .star-two {
+        margin-left: 0;
+        margin-top: 16px;
+    }
+
+    .star-three {
+        margin-left: 0;
+        margin-top: 16px;
+    }
+
+    .comment-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comment-box {
+        margin-top: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+}
